@@ -35,11 +35,11 @@ class Appointments extends Component {
   }
 
   onChangeDateInput = event => {
-    this.setState({dateInput: event.targe.value})
+    this.setState({dateInput: event.target.value})
   }
 
   onChangeTitleInput = event => {
-    this.setState({titleInput: event.targe.value})
+    this.setState({titleInput: event.target.value})
   }
 
   onAddAppointment = event => {
